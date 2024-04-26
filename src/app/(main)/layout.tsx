@@ -5,6 +5,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import type { Metadata } from "next";
 
+import { Suspense } from "react";
 import { Header } from "~/app/components/Header";
 import { SearchBar } from "~/app/components/SearchBar";
 import { theme } from "~/theme";
@@ -43,7 +44,9 @@ export default function RootLayout({
                 paddingBottom: "16px",
               }}
             >
-              <SearchBar />
+              <Suspense>
+                <SearchBar />
+              </Suspense>
               {children}
             </Container>
           </ThemeProvider>
