@@ -1,0 +1,26 @@
+* {
+  min-width: 0;
+}
+
+image,
+video,
+svg {
+  display: block;
+  height: auto;
+  min-width: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
