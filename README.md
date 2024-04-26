@@ -8,7 +8,7 @@ Dato: El nombre "Tamar" está basado en la diosa del clima de Georgia. [Más inf
 
 ## Demo deployada de Vercel
 
-https://tamar-idql9jibt-alan-ivan-toledos-projects.vercel.app/
+https://tamar-six.vercel.app/
 
 ## Pasos para iniciar el proyecto localmente
 
